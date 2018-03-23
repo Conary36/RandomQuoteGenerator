@@ -14,30 +14,40 @@ var quotes = [
     {
       quote: 'Do not pray for an easy life, pray for the strength to endure a difficult one.',
       source: 'Bruce Lee',
+      citation: 'Rob King Fitness-martial arts quotes',
+      year: 1999,
       tag: 'Life'
     },
 
     {
       quote: "The only way to do great work is to love what you do.If you haven't found it yet, keep looking. Don't settle.",
       source: 'Steve Jobs',
+      citation: 'www.inspirationinpictures.com',
+      year: 'unknown year',
       tag: 'Work'
     },
 
     {
       quote: 'Talk to yourself once a day, otherwise you may miss meeting an excellent person in this world.',
       source: 'Swami Vivekananda',
+      citation: 'www.rishikajain.com',
+      year: 'Yesteryear',
       tag: 'Confidence'
     },
 
     {
       quote: "Don't be dead serious about your life, it's just a play.",
       source: 'Sadhguru Jaggi Vasudev',
+      citation: 'www.isha.sadhguru.org',
+      year: 'unknown year',
       tag: 'Enlightenment'
     },
 
     {
       quote: 'I think it is possible for ordinary people to choose to be extraordinary.',
       source: 'Elon Musk',
+      citation: 'www.fearlessmotivation.com',
+      year: 'unknown year',
       tag: 'Motivation'
 }
 
@@ -76,8 +86,8 @@ function randomBackground() {
 
 }
 
-//changes quote every 15 seconds.
-var myChange = setInterval(change, 15000)
+//changes quote every 10 seconds.
+var myChange = setInterval(change, 10000)
 function change() {
   randomBackground();
   printQuote();
